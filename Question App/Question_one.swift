@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SecondView: View {
+struct Question_one: View {
     let green = Color(UIColor(red: 180/255, green: 227/255, blue: 128/255, alpha: 1.0))
     let orange = Color(UIColor(red: 255/255, green: 163/255, blue: 143/255, alpha: 1.0))
     let blue = Color(UIColor(red: 150/255, green: 201/255, blue: 244/255, alpha: 1.0))
@@ -64,7 +64,7 @@ struct SecondView: View {
                     .padding()
                 
 
-                NavigationLink(destination: ThirdView()) {
+                NavigationLink(destination: Question_two()) {
                     Text("Next")
                 }
                 .padding()
@@ -80,5 +80,5 @@ struct SecondView: View {
 }
 
 #Preview {
-    SecondView()
+    Question_one()
 }

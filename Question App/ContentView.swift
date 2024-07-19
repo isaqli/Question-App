@@ -13,7 +13,7 @@ struct ContentView: View {
         NavigationStack {
             VStack {
                 Text("Question App")
-                NavigationLink(destination: SecondView()) {
+                NavigationLink(destination: Question_one()) {
                     Text("Continue!")
                 }
             }
